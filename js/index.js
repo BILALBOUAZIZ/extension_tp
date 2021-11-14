@@ -9,6 +9,6 @@ handle["/find"] = requestHandlers.find;
 handle["/show"] = requestHandlers.show;
 handle["/login"] = requestHandlers.login;
 handle["/logout"] = requestHandlers.logout;
-handle["/conn"] = requestHandlers.logout;
+handle["/vonn"] = requestHandlers.vonn;
 
 server.start(router.route, handle);

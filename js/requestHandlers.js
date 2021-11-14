@@ -11,7 +11,7 @@ function start(response) {
   response.end;
 
 }
-function conn(response){
+function vonn(response){
   console.log("Request handler 'start' was called.");
   fs = require('fs');
 
@@ -60,8 +60,9 @@ function find(response) {
   response.end();
  }
  exports.start = start;
-  exports.upload = upload;
+exports.upload = upload;
  exports.find = find;
  exports.show = show;
  exports.login = login;
  exports.logout = logout;
+ exports.vonn = vonn;
